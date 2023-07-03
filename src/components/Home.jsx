@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsEnvelopePaper } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import Resume from '../assets/resume.pdf';
 const Home = () => {
   return (
     <div name='home' className='w-full h-screen bg-[#1C1C1C]'>
@@ -19,12 +20,14 @@ const Home = () => {
           building responsive full-stack web applications.
         </p>
         <div>
+          <a href={Resume} target="_blank" rel="noopener noreferrer">  
            <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#E50072] hover:border-[#E50072]'>
             View Resume
             <span >
               <BsEnvelopePaper className='ml-3 ' />
             </span>
           </button>
+          </a>
          
         </div>
       </div>
