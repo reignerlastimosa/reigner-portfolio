@@ -12,10 +12,10 @@ const Home = () => {
           Reigner Lastimosa
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#E50072]'>
-          I'm an IS Fresh Graduate
+          I'm Software Developer & Data Scientist
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          I’m an Information Systems fresh graduate specializing in building websites specifically front-end as well as data cleaning, data visualization, and creating machine learning models. Currently looking for software developer, data engineer, and machine learning roles.
+          I’m an AI & Software Developer specializing in building websites full-stack integrated with machine learning and AI. I also do data cleaning, data entry, data visualization, and creating machine learning models. Currently looking for software developer, data engineer, and machine learning roles.
         </p>
         <div>
           <a href={Resume} target="_blank" rel="noopener noreferrer">  
